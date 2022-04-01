@@ -131,6 +131,10 @@ The SDS setting is configured by using the `SDSConfig` directory in the `%PMLLIB
 
   If this is true, whenever SDS creates a support framework that supports piping running between **north** and **south**, it rotates the `STRU` element by 180°.
 
+- `BasePlateDetail`: _Boolean_
+
+  If this is true, SDS draws details of baseplates in the support drawings.
+
 - `ForcedToUpdateDB`: _Boolean_
 
   If this is true, SDS forces the users to do **Getwork** and **Savework** whenever they try to create a new `SUPPO` element.
