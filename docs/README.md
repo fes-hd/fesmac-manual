@@ -4,10 +4,11 @@
 
 - [SDS](/mac/fessupp/)
 - [ISO Check](/mac/fescheck/)
-- [Pipe To Grid](/mac/fesrefdim/)
 - [Element History](/mac/feshistory/)
 - [Quick Report](/mac/fesrep/)
 - [Members Editor](/mac/fesmember/)
+- [Pipe To Grid](/mac/fesrefdim/)
+- [Output Dia-Inch Report](/mac/fesweldrep/)
 - [Output Spec](/mac/fesspec/)
 
 ## Getting Started
