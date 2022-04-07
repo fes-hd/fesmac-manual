@@ -21,9 +21,3 @@ show !!fesweldrep
 - **Filename**
 
   Filename of the output file
-
-- **Output Direct Connection**
-
-  If true, welding points that directly connect to something else are also output.
-
-!> If you output them, you need to be careful not to double-count the number of welding points.
