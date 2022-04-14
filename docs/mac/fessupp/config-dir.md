@@ -76,6 +76,10 @@ The SDS setting is configured by using the `SDSConfig` directory in the `%PMLLIB
 
   This is a maximum angle for considering a sloped piping as straight. If the framework supports a piping sloped over this value, the framework is automatically tilted.
 
+- `TrunWeepHoleDiam`: _Distance_
+
+  This is the diameter of a weep hole opened on trunnion pipes.
+
 - `AncillaryStext`: _PML expression_
 
   This is a PML **string** expression to set ancillaries' `Stext` attributes. When the expression is evaluated, the CE is an `ANCI` or `TRANCI` element that has a valid `Compref` attribute. Also, `\n` in the expression is replaced by the new line character.
