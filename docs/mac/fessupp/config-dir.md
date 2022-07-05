@@ -127,6 +127,10 @@ The SDS setting is configured by using the `SDSConfig` directory in the `%PMLLIB
 
   If this is true, the items that have a quantity as a **distance** are grouped by whether the description texts are the same in the support MTO.
 
+- `MtoTrunMembers`: _Boolean_
+
+  If this is true, for trunnions, the support MTO includes items by each member from a `TRUNNI` element. Otherwise, it includes only one item as `TRUNNION SET`.
+
 - `FlippedFrmwEW`: _Boolean_
 
   If this is true, whenever SDS creates a support framework that supports piping running between **east** and **west**, it rotates the `STRU` element by 180°.
