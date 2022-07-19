@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <title>FESMAC Manual</title>
@@ -7,7 +8,9 @@
   <meta name="description" content="Description">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+  <link rel="stylesheet" href="fesdocs.css">
 </head>
+
 <body>
   <div id="app"></div>
   <script>
@@ -19,8 +22,8 @@
       auto2top: true,
       relativePath: true,
       plugins: [
-        function(hook) {
-          hook.afterEach(function(html) {
+        function (hook) {
+          hook.afterEach(function (html) {
             return html + '<hr><footer>&copy; 2022 Fuji Engineering Service Co., Ltd.</footer>';
           });
         }
@@ -34,4 +37,5 @@
   <script src="//cdn.jsdelivr.net/npm/docsify@4/lib/plugins/zoom-image.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify-copy-code@2/dist/docsify-copy-code.min.js"></script>
 </body>
+
 </html>
