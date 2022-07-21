@@ -6,7 +6,7 @@
 
   - Drawing support uses dmtxt of PDIM from the template
   - Drawing support shows the bottom elevation of grouts on the projection line
-  - Drawing support can count `ATTA` as a MTO item
+  - Drawing support can count `ATTA` as an MTO item
   - Add `MtoTrunMembers` option in `sdsconfig.csv`
 
 - ISO Check
