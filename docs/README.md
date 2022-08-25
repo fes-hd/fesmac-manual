@@ -8,7 +8,7 @@
 - [Quick Report](/mac/fesrep/)
 - [Members Editor](/mac/fesmember/)
 - [Pipe To Grid](/mac/fesrefdim/)
-- [Output Dia-Inch Report](/mac/fesweldrep/)
+- [Output MTO](/mac/fesmto/)
 - [Output Spec](/mac/fesspec/)
 
 ## Getting Started
