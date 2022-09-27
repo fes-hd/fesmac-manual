@@ -91,6 +91,7 @@ The grout catalogs are defined by the `SFIT` elements and must follow the follow
 - The `Gtype` attribute is `GROU`.
 - **P-point 0** is where to put the owner plate on.
 - **P-point 9** is the bottom of the grout, and the direction is **-Y**.
+- **P-point 10** is the same meaning as **P-point 9**, but it is used for dimensions only.
 - When SDS creates the base plate and the grout, it automatically sets the owner plate's **height** to `desp[1]` of the grout and the **width** to `desp[2]`.
 
 ## Bolt Catalog
