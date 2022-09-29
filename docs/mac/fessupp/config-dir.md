@@ -143,7 +143,7 @@ The SDS setting is configured by using the `SDSConfig` directory in the `%PMLLIB
 
   If this is true, SDS draws details of baseplates in the support drawings.
 
-  `BasePlateTopDpoi`: _Boolean_
+- `BasePlateTopDpoi`: _Boolean_
 
   If this is true, SDS creates `DPOI` to the top of base plates in dimensions for `GENSEC`.
 
