@@ -21,6 +21,9 @@
       subMaxLevel: 6,
       auto2top: true,
       relativePath: true,
+      requestHeaders: {
+        'cache-control': 'max-age=600',
+      },
       plugins: [
         function (hook) {
           hook.afterEach(function (html) {
