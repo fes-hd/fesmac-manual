@@ -1,5 +1,28 @@
 # Changelog
 
+## 2.3.0 (2022-12-07)
+
+- SDS
+
+  - Add a new option `BasePlateTopDpoi` to toggle whether dimensions in support drawings point at the top of baseplates
+  - Make smaller zdis attribute of GENSECs than 1mm be considered 0
+
+- ISO Check
+
+  - Avoid an error when material control CSV files include unsupported characters in Windows file paths
+
+- Output MTO
+
+  - Fix outputting Dia-Inch report to work for imperial projects
+
+- Pipe To Grid
+
+  - Fix element type for showing reference grids from `CLOS` to `CROS`
+
+- Elements Table
+
+  - First release
+
 ## 2.2.0 (2022-08-25)
 
 - SDS
