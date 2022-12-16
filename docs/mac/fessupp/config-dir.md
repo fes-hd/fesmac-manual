@@ -147,6 +147,10 @@ The SDS setting is configured by using the `SDSConfig` directory in the `%PMLLIB
 
   If this is true, SDS creates `DPOI` to the top of base plates in dimensions for `GENSEC`.
 
+- `GensecCloseEndIns`: _Boolean_
+
+  If this is true, the `CEND` parameter of ancillaries includes the insulation thickness of the supported piping.
+
 - `ForcedToUpdateDB`: _Boolean_
 
   If this is true, SDS forces the users to do **Getwork** and **Savework** whenever they try to create a new `SUPPO` element.
