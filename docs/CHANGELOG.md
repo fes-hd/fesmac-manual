@@ -1,5 +1,11 @@
 # Changelog
 
+## 2.4.0 (2022-12-19)
+
+- SDS
+
+  - Add a new option `GensecCloseEndIns` to toggle whether the `CEND` parameter of ancillaries includes the insulation thickness of the supported piping.
+
 ## 2.3.0 (2022-12-07)
 
 - SDS
