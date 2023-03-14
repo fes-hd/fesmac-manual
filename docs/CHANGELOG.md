@@ -1,10 +1,21 @@
 # Changelog
 
+## 2.5.0 (2022-03-14)
+
+- SDS
+
+  - Fix the extra length of `GENSEC` to be 0 if the actual length of `GENSEC` is 0
+  - Make the support MTO exclude `BOX` and `PANE` in `SUBS` with the description is unset
+
+- Elements Table
+
+  - Fix failure to evaluate a certain expression
+
 ## 2.4.0 (2022-12-19)
 
 - SDS
 
-  - Add a new option `GensecCloseEndIns` to toggle whether the `CEND` parameter of ancillaries includes the insulation thickness of the supported piping.
+  - Add a new option `GensecCloseEndIns` to toggle whether the `CEND` parameter of ancillaries includes the insulation thickness of the supported piping
 
 ## 2.3.0 (2022-12-07)
 
