@@ -1,5 +1,9 @@
 # Changelog
 
+## 2.6.0 (2023-07-19)
+
+- Add a new authentication system for communication to the new authentication server
+
 ## 2.5.0 (2022-03-14)
 
 - SDS
