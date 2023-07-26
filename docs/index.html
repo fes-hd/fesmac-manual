@@ -16,6 +16,7 @@
   <script>
     window.$docsify = {
       name: 'FESMAC Manual',
+      themeColor: '#3F51B5',
       loadNavbar: false,
       loadSidebar: true,
       subMaxLevel: 6,
@@ -27,7 +28,7 @@
       plugins: [
         function (hook) {
           hook.afterEach(function (html) {
-            return html + '<hr><footer>&copy; 2022 Fuji Engineering Service Co., Ltd.</footer>';
+            return html + '<hr><footer style="text-align:center">&copy; 2023 Fuji Engineering Service Co., Ltd.</footer>';
           });
         }
       ]
@@ -36,7 +37,6 @@
   <!-- Docsify v4 -->
   <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify@4/lib/plugins/search.min.js"></script>
-  <script src="//cdn.jsdelivr.net/npm/docsify@4/lib/plugins/emoji.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify@4/lib/plugins/zoom-image.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify-copy-code@2/dist/docsify-copy-code.min.js"></script>
 </body>
