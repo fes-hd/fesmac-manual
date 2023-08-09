@@ -1,6 +1,6 @@
 <!-- markdownlint-disable MD041 -->
 
-- [SDS](./)
+- [SDS](/mac/fessupp/)
 
   - **Getting Started**
 
