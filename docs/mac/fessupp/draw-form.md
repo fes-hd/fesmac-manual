@@ -8,7 +8,7 @@
 
   When generating the drawings, the selected template in this drop-down list is used.
 
-  !> For details of the template `REGI` element, see [Template Registry](template-format.md#template-registry).
+  > [!TIP] For details of the template `REGI` element, see [Template Registry](template-format.md#template-registry).
 
 - **Output REGI**
 
@@ -36,7 +36,7 @@
 
   To execute one step of generating the drawing, click an item in this sub-menu.
 
-  !> For details of the steps of generating the drawing, see [Generating Drawing Methods](#generating-drawing-methods).
+  > [!TIP] For details of the steps of generating the drawing, see [Generating Drawing Methods](#generating-drawing-methods).
 
 - **Output MTO**
 
@@ -46,7 +46,7 @@
 
   To output the selected drawings as **PDF** files, click this one.
 
-  !> The plot style is defined by the `OutputPltsty` option. For details, see [Configuration File](config-dir.md#configuration-file).
+  > [!TIP] The plot style is defined by the `OutputPltsty` option. For details, see [Configuration File](config-dir.md#configuration-file).
 
 - **Export to Excel**
 
@@ -90,13 +90,13 @@
 
   Set the origin point symbols at the support origin.
 
-  !> To set the support origin at your desired ancillary, set the `Number` attribute of the `ANCI` element to `-1`.
+  > [!NOTE] To set the support origin at your desired ancillary, set the `Number` attribute of the `ANCI` element to `-1`.
 
 - `.SetOriginToGrid()`
 
   Set the dimensions from the origin to the nearest gridlines.
 
-  !> The place to search for the nearest gridline is a `GRDREF` element where the origin is located. If the two or more `GRDREF` are applicable, the used `GRDREF` is the one with the smallest volume. The search ignores gridlines whose `IDPlane` attribute is `-`.
+  > [!NOTE] The place to search for the nearest gridline is a `GRDREF` element where the origin is located. If the two or more `GRDREF` are applicable, the used `GRDREF` is the one with the smallest volume. The search ignores gridlines whose `IDPlane` attribute is `-`.
 
 - `.DrawPipeEnds()`
 

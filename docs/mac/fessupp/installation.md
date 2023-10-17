@@ -20,7 +20,7 @@ To install SDS, follow these steps:
 
 1. Place the `fessupp` folder in a directory specified by the `PMLLIB` environment variable.
 
-   !> For details of the `PMLLIB` environment variable, see **_AVEVA E3D Design Help > SOFTWARE COSTOMISATION > PML Publisher > General Features of PML > Storing and Loading PML Files_**
+   > [!TIP] For details of the `PMLLIB` environment variable, see **_AVEVA E3D Design Help > SOFTWARE COSTOMISATION > PML Publisher > General Features of PML > Storing and Loading PML Files_**
 
 2. Enter the following command in **Command Window** on E3D Design:
 
@@ -56,4 +56,4 @@ To prepare the sample drawing template for your project, follow these steps:
 
 3. Import `/SDS-LIBRARIES` and `/SDS-PENSTYLES` from the table in the **Initial Settings** tab.
 
-!> To use user-defined catalogs and drawing templates, see [Configuration Directory](config-dir.md).
+> [!TIP] To use user-defined catalogs and drawing templates, see [Configuration Directory](config-dir.md).

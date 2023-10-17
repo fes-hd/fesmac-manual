@@ -14,7 +14,7 @@
 
   To copy the `SDSConfig` folder from the `%PMLLIB%` directory to the `%<project>DFLTS%` directory, click this button.
 
-  !> For details of the `SDSConfig` folder, see [Configuration Directory](config-dir.md#configuration-directory).
+  > [!TIP] For details of the `SDSConfig` folder, see [Configuration Directory](config-dir.md#configuration-directory).
 
 - **Open Project Config Folder**
 
@@ -32,7 +32,7 @@
 
   There are DB output files on this table. To import the DB output file, select the row > right-click on the table > click **Import**.
 
-  !> For details of the DB output file, see [DB Output Files Definition File](config-dir.md#db-output-files-definition-file).
+  > [!TIP] For details of the DB output file, see [DB Output Files Definition File](config-dir.md#db-output-files-definition-file).
 
 ### Model Data Converter Tab
 

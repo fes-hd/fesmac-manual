@@ -12,7 +12,7 @@ To open the SDS Design form, follow these steps:
    show !!fessuppdes
    ```
 
-   !> To open an SDS macro form besides using the command, ask your E3D administrator or see **_AVEVA E3D Design Help > SOFTWARE COSTOMISATION > .NET Customisation > Edit an UIC File_**
+   > [!TIP] To open an SDS macro form besides using the command, ask your E3D administrator or see **_AVEVA E3D Design Help > SOFTWARE COSTOMISATION > .NET Customisation > Edit an UIC File_**
 
 ## Create SUPPO Element
 
@@ -24,7 +24,7 @@ To create a `SUPPO` element, follow these steps:
 
 2. Enter a name to a new `SUPPO` in the **Name** box on the macro form.
 
-   !> You can name `SUPPO` by using `(Auto Name)` instead of manually naming. That automatically names `SUPPO` from a naming pattern of the first `SUPPO` in the owner `ZONE` element.
+   > [!NOTE] You can name `SUPPO` by using `(Auto Name)` instead of manually naming. That automatically names `SUPPO` from a naming pattern of the first `SUPPO` in the owner `ZONE` element.
 
 3. Click <kbd>Create</kbd> next to the **Name** box.
 
@@ -40,11 +40,11 @@ To create a support ancillary to the current support, follow these steps:
 
 3. Select an ancillary type from the list.
 
-   !> The ancillary types shown in the list can depend on the condition of the `BRAN` element that owns the picked piping element.
+   > [!NOTE] The ancillary types shown in the list can depend on the condition of the `BRAN` element that owns the picked piping element.
 
 4. Click <kbd>OK</kbd> on the selection form.
 
-   !> If you have created the first ancillary of a `SUPPO` element, its position is at the arriving point of the picked piping element. To move the ancillary to the desired position, use the **Distance** box.
+   > [!NOTE] If you have created the first ancillary of a `SUPPO` element, its position is at the arriving point of the picked piping element. To move the ancillary to the desired position, use the **Distance** box.
 
 ## Create Support Framework
 
@@ -56,7 +56,7 @@ To create a support framework to the current support, follow these steps:
 
 2. Select a framework type from the selection list.
 
-   !> If there are too many options in the list, you can use the **Filter** drop-down list next to <kbd>Create</kbd> to reduce them.
+   > [!TIP] If there are too many options in the list, you can use the **Filter** drop-down list next to <kbd>Create</kbd> to reduce them.
 
 3. Click <kbd>OK</kbd> on the selection form.
 
@@ -74,7 +74,7 @@ To create a base plate to the current steel section, follow these steps:
 
 4. Select a base plate type from the selection list.
 
-   !> The base plate types shown in the list can depend on the condition of the `GENSEC` element.
+   > [!NOTE] The base plate types shown in the list can depend on the condition of the `GENSEC` element.
 
 5. Click <kbd>OK</kbd> on the selection form.
 

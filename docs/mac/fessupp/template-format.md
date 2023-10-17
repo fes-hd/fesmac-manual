@@ -4,7 +4,7 @@
 
 The drawing templates must be in a `REGI` element whose `SpPurpose` attribute is `SUPP`. The `REGI` element can include multiple `DRWG` elements. Their usage depends on the `ViewScales` option.
 
-!> For details of the `ViewScales` option, see [Configuration File](config-dir.md#configuration-file).
+> [!TIP] For details of the `ViewScales` option, see [Configuration File](config-dir.md#configuration-file).
 
 ## Template Drawing
 
@@ -60,7 +60,7 @@ The `DRWG` element for the template drawing must have the following type and nam
 
         SDS creates the detail-views in the area enclosed by this `RECT`.
 
-        !> If there are too many detail-views on one sheet, they might be created outside the area.
+        > [!WARNING] If there are too many detail-views on one sheet, they might be created outside the area.
 
     - :city_sunset: **VIEW** `./S1/VP`
 

@@ -2,7 +2,7 @@
 
 The SDS setting is configured by using the `SDSConfig` directory in the `%PMLLIB%` directory. You can change the setting for each project by copying `SDSConfig` to the directory defined by the `%<project>DFLTS%` environment variable and editing the files in the copied `SDSConfig`.
 
-!> You can use the **Admin Tools** form to copy `SDSConfig`. For details, see [Admin Tools Form](admin-form.md).
+> [!TIP] You can use the **Admin Tools** form to copy `SDSConfig`. For details, see [Admin Tools Form](admin-form.md).
 
 ## Configuration File
 
@@ -14,7 +14,7 @@ The SDS setting is configured by using the `SDSConfig` directory in the `%PMLLIB
 
   This is a CSV file that is the [Ancillary Types Definition File](#ancillary-types-definition-file).
 
-  !> All the values as file paths are the **relative paths** from the CSV file itself.
+  > [!NOTE] All the values as file paths are the **relative paths** from the CSV file itself.
 
 - `BasePlates`: _File path_
 
@@ -44,7 +44,7 @@ The SDS setting is configured by using the `SDSConfig` directory in the `%PMLLIB
 
   This is an image file to display that "There is nothing to show."
 
-  !> The format of all the image files must be **PNG (\*.png)** or **JPEG (\*.jpg)**, and their image size should be **300x300px**.
+  > [!NOTE] The format of all the image files must be **PNG (\*.png)** or **JPEG (\*.jpg)**, and their image size should be **300x300px**.
 
 - `SpecialImage`: _File path_
 
@@ -62,7 +62,7 @@ The SDS setting is configured by using the `SDSConfig` directory in the `%PMLLIB
 
   This is an extra length required if either end of a `GENSEC` element has a field welded plate.
 
-  !> Real values as a **distance** and a **bore** should include unit symbols such as `mm`, `"`, or `in` because their amount depends on the units setting of each project.
+  > [!NOTE] Real values as a **distance** and a **bore** should include unit symbols such as `mm`, `"`, or `in` because their amount depends on the units setting of each project.
 
 - `PaddingAroundView`: _Distance_
 
@@ -84,7 +84,7 @@ The SDS setting is configured by using the `SDSConfig` directory in the `%PMLLIB
 
   This is a PML **string** expression to set ancillaries' `Stext` attributes. When the expression is evaluated, the CE is an `ANCI` or `TRANCI` element that has a valid `Compref` attribute. Also, `\n` in the expression is replaced by the new line character.
 
-  !> For details of the PML expressions, see **_AVEVA E3D Design Help > DATABASE and DATA MANAGEMENT > Database Management Reference > Expressions_**
+  > [!TIP] For details of the PML expressions, see **_AVEVA E3D Design Help > DATABASE and DATA MANAGEMENT > Database Management Reference > Expressions_**
 
 - `ForeignRefCond`: _PML expression_
 
@@ -117,7 +117,7 @@ The SDS setting is configured by using the `SDSConfig` directory in the `%PMLLIB
 
   This is an attribute name to show the detail text for the ancillary items in the support MTO.
 
-  !> You can also use a **pseudo attribute** as the attribute name.
+  > [!NOTE] You can also use a **pseudo attribute** as the attribute name.
 
 - `MtoAncillaryMtext`: _String_
 
@@ -155,7 +155,7 @@ The SDS setting is configured by using the `SDSConfig` directory in the `%PMLLIB
 
   If this is true, SDS forces the users to do **Getwork** and **Savework** whenever they try to create a new `SUPPO` element.
 
-  > All the CSV (\*.csv) files must follow the following rules. For your information, **_Microsoft Excel_** can save a valid CSV file.
+  > [!NOTE] All the CSV (\*.csv) files must follow the following rules. For your information, **_Microsoft Excel_** can save a valid CSV file.
   >
   > - The first row is the column names.
   > - The delimiters are `,` comma.
@@ -170,7 +170,7 @@ This is a CSV file to define the ancillary types to show on the **Select Ancilla
 
   This defines the ancillary type names to specific-choose a row of the CSV file. These values must be **unique** in this column.
 
-  !> If the ancillary type is the same name as the framework type or the hanger type, when SDS creates the ancillary, also it creates the framework or hanger.
+  > [!NOTE] If the ancillary type is the same name as the framework type or the hanger type, when SDS creates the ancillary, also it creates the framework or hanger.
 
 - `description`: _String_
 
@@ -215,7 +215,7 @@ This is a CSV file to define the ancillary types to show on the **Select Ancilla
 
   When SDS creates the ancillary's members, it reads these values **from left to right**. If the read value is the **SPCO name**, it finds the `SPCO` element in `SupportSpec` that matches the name and has the same bore as the attached piping, and then it creates the member whose `Spref` has the found `SPCO`. If the read value is the **DESP setter**, it sets the parameters to the `Desparam` attribute of the last created member.
 
-  !> For details of `SupportSpec`, see [Configuration File](#configuration-file).
+  > [!TIP] For details of `SupportSpec`, see [Configuration File](#configuration-file).
 
 ## Base Plate Types Definition File
 
@@ -291,7 +291,7 @@ This is a CSV file to define the framework types to show on the **Select Framewo
   - The `GENSEC` element for putting ancillaries must be running straight between **north** and **south**, and the justification line must be on the `STRU` origin (Position of `STRU`).
   - To show the material names on the support MTO, set the material names to the `Description` attributes of the `GENSEC` elements.
 
-  !> You can use the **Admin Tools** form to create framework data files. For details, see [Admin Tools Form](admin-form.md).
+  > [!TIP] You can use the **Admin Tools** form to create framework data files. For details, see [Admin Tools Form](admin-form.md).
 
 ## Hanger Types Definition File
 
@@ -317,7 +317,7 @@ This is a CSV file to define the hanger types used for the supports. It must hav
 
   This defines the hanger data files. The hanger data file is an output `HANG` element as a text file. You can use the hanger data output from the `HANG` elements in the `%APS000%/aps7344_0001` database, which is in the **APS** project provided by AVEVA, or the same format as it.
 
-  !> You can use the **Admin Tools** form to create hanger data files. For details, see [Admin Tools Form](admin-form.md).
+  > [!TIP] You can use the **Admin Tools** form to create hanger data files. For details, see [Admin Tools Form](admin-form.md).
 
 ## DB Output Files Definition File
 
@@ -331,7 +331,7 @@ This is a CSV file to define the DB output files to show on the **Admin Tools** 
 
   This defines the 3-character module names. If the user is in the module, the DB output file is available on the form.
 
-  > To know the current module name, run the following command from **Command Window**:
+  > [!TIP] To know the current module name, run the following command from **Command Window**:
   >
   > ```pml
   > q var !!module().appkey
@@ -341,7 +341,7 @@ This is a CSV file to define the DB output files to show on the **Admin Tools** 
 
   This defines the DB output files.
 
-  !> To create a DB output file, see **_AVEVA E3D Design Help > DESIGN and MODELLING > Data Check > DB Listing_**
+  > [!TIP] To create a DB output file, see **_AVEVA E3D Design Help > DESIGN and MODELLING > Data Check > DB Listing_**
 
 - `description`: _String_
 

@@ -27,7 +27,7 @@ The way to create an ancillary catalog is almost the same as a normal piping cat
   | OEND | DIST  | Distance from an open end of `GENSEC` to the nearest ancillary                          |
   | ANTY | WORD  | Catalog generic type                                                                    |
 
-  > If the `ANTY` parameter has one of the following values, it has a special meaning as below:
+  > [!NOTE] If the `ANTY` parameter has one of the following values, it has a special meaning as below:
   >
   > - `REST`: It does not appear on the support MTO.
   > - `BOLT`: SDS considers it a bolting ancillary, such as a U bolt, U band, or flange band.
@@ -39,7 +39,7 @@ The way to create an ancillary catalog is almost the same as a normal piping cat
 
 The `SPCO` elements for the ancillary catalogs must be in the `SPEC` element set to `SupportSpec` in `sdsconfig.csv`.
 
-!> You can use the **Admin Tools** form to create the `SPCO` elements for ancillary catalogs. For details, see [Admin Tools Form](admin-form.md).
+> [!TIP] You can use the **Admin Tools** form to create the `SPCO` elements for ancillary catalogs. For details, see [Admin Tools Form](admin-form.md).
 
 ## Base Plate Catalog
 

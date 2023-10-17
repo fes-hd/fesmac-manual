@@ -105,7 +105,7 @@ You can approve an errors instead of solving them by fixing the PIPE.
 
 ![Approving Error](assets/approve.gif)
 
-!> To complete checking after approving all the errors, click the **Recheck** button.
+> [!NOTE] To complete checking after approving all the errors, click the **Recheck** button.
 
 ### Outputting ISO Drawings
 
@@ -113,7 +113,7 @@ When the macro checks a PIPE, it also outputs the ISO drawings.
 
 ![Outputting ISO](assets/output_iso.gif)
 
-!> If the PIPE still has errors, the macro writes `DRAFT` on the ISO drawings.
+> [!NOTE] If the PIPE still has errors, the macro writes `DRAFT` on the ISO drawings.
 
 ## Configuration
 
@@ -141,4 +141,4 @@ show !!feschecksettings
 
   If an error of checking PIPEs matches with **Name**, **Check**, **Code**, and **Detail** of any row in this list, the error is automatically approved with the values of **Approved by** and **Reason of Approval**.
 
-  !> You can use the wildcard characters `*` in the values of **Name**, **Check**, **Code**, and **Detail**.
+  > [!NOTE] You can use the wildcard characters `*` in the values of **Name**, **Check**, **Code**, and **Detail**.
