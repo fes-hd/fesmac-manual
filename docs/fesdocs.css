@@ -1,15 +1,38 @@
-.markdown-section h1,
-.markdown-section h2,
-.markdown-section h3,
-.markdown-section h4 {
-    margin-top: 1.5rem;
-    margin-bottom: 1rem;
+@media print {
+    @page {
+        size: A4 portrait;
+        margin: 15mm 0;
+    }
+
+    .sidebar {
+        display: none;
+    }
+
+    .content {
+        padding-top: 0;
+        left: 0;
+    }
+
+    .markdown-section h1,
+    .markdown-section h2,
+    .markdown-section h3,
+    .markdown-section h4,
+    .markdown-section h5,
+    .markdown-section h6 {
+        break-after: avoid-page;
+    }
+
+    .markdown-section li {
+        break-inside: avoid-page;
+    }
+
+    .markdown-section img {
+        max-height: 408px;
+    }
 }
 
-.markdown-section h1,
-.markdown-section h2 {
-    padding-bottom: 0.3em;
-    border-bottom: 1px solid #ddd;
+.markdown-section h1 {
+    font-size: 2rem;
 }
 
 .markdown-section h2 {
@@ -24,7 +47,31 @@
     font-size: 1rem;
 }
 
+.markdown-section h5 {
+    font-size: 0.875rem;
+}
+
+.markdown-section h6 {
+    font-size: 0.85rem;
+}
+
+.markdown-section h1,
+.markdown-section h2,
+.markdown-section h3,
+.markdown-section h4,
+.markdown-section h5,
+.markdown-section h6 {
+    margin-top: 24px;
+    margin-bottom: 16px;
+}
+
+.markdown-section h1,
+.markdown-section h2 {
+    padding-bottom: 0.3em;
+    border-bottom: 1px solid #ddd;
+}
+
 .markdown-section hr {
-    margin: 1.5rem 0;
+    margin: 24px 0;
     border-bottom: 1px solid #ddd;
 }
