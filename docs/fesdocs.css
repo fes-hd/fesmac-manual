@@ -75,3 +75,7 @@
     margin: 24px 0;
     border-bottom: 1px solid #ddd;
 }
+
+.markdown-section footer {
+    text-align: center;
+}

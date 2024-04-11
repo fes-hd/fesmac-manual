@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <title>FESMAC Manual</title>
@@ -10,7 +9,6 @@
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
   <link rel="stylesheet" href="fesdocs.css">
 </head>
-
 <body>
   <div id="app"></div>
   <script>
@@ -26,11 +24,15 @@
         'cache-control': 'max-age=600',
       },
       plugins: [
-        function (hook) {
+        function pageFooter(hook, vm) {
+          var footer = `
+            <hr/>
+            <footer>&copy; ${(new Date()).getFullYear()} Fuji Engineering Service Co., Ltd. </footer>
+          `;
           hook.afterEach(function (html) {
-            return html + '<hr><footer style="text-align:center">&copy; 2023 Fuji Engineering Service Co., Ltd.</footer>';
+            return html + footer;
           });
-        }
+        },
       ]
     }
   </script>
@@ -41,5 +43,4 @@
   <script src="//cdn.jsdelivr.net/npm/docsify-plugin-flexible-alerts@1/dist/docsify-plugin-flexible-alerts.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify-copy-code@2/dist/docsify-copy-code.min.js"></script>
 </body>
-
 </html>

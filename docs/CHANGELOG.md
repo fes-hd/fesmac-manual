@@ -1,5 +1,11 @@
 # Changelog
 
+## 2.7.0 (2023-04-11)
+
+- SDS
+
+  - Avoid an error when drawing GLABs on an ISO view
+
 ## 2.6.0 (2023-07-19)
 
 - Add a new authentication system for communication to the new authentication server
