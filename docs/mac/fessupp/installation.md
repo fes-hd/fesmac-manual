@@ -6,11 +6,11 @@
 
 - Compatibility between the SDS macro forms and the AVEVA products is as follows:
 
-  | Compatibility Matrix |   PDMS 12.1 SP4    |   PDMS 12.1 SP5    |   E3D Design 2.1   |   E3D Design 3.1   |
-  | -------------------: | :----------------: | :----------------: | :----------------: | :----------------: |
-  |      **Design form** | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
-  |        **Draw form** |                    |                    |                    | :heavy_check_mark: |
-  | **Admin Tools form** |                    |                    |                    | :heavy_check_mark: |
+  | Compatibility Matrix |  E3D Design 2.1.x  |  E3D Design 3.1.x  | E3D Design 4.0.x |
+  | -------------------: | :----------------: | :----------------: | :--------------: |
+  |      **Design form** | :white_check_mark: | :white_check_mark: |                  |
+  |        **Draw form** |                    | :white_check_mark: |                  |
+  | **Admin Tools form** |                    | :white_check_mark: |                  |
 
 - All the AVEVA products on this compatibility matrix must be the latest version.
 
