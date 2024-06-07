@@ -1,5 +1,12 @@
 # Changelog
 
+## 2.7.1 (2024-06-07)
+
+- SDS
+
+  - Suppress 0 dimension texts when drawing dimensions between a support origin and a grid line with the distance less than 0.5mm
+  - Make detail views on support drawings inherit attributes from the plan view
+
 ## 2.7.0 (2023-04-11)
 
 - SDS
