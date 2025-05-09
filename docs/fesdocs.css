@@ -35,7 +35,7 @@
     }
 
     .markdown-section pre {
-        overflow: visible;
+        text-wrap: wrap;
     }
 }
 
